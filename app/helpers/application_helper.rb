@@ -3,7 +3,8 @@ module ApplicationHelper
 		unless parts.empty?
 			content_for :title do
 				(parts << "Tix_check").join(" - ")
-			end
+		end
+	end
 	end
 end
 
