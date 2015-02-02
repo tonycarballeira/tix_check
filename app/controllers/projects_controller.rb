@@ -1,7 +1,7 @@
 class ProjectsController < ApplicationController
-before_action :set_project, only: [:show,:edit,:update,:destroy]
+	before_action :set_project, only: [:show,:edit,:update,:destroy]
 
-has_many :tickets
+	
 
 	def new
 		@project = Project.new
